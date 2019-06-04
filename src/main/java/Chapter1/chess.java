@@ -18,7 +18,8 @@ public class chess {
         for (a=1;a<=9;a++)
             for (b=1;b<=9;b++)
                 if(a%3 != b%3)
-                {System.out.printf("A = %d ,B = %d",a,b);
+                {
+                    System.out.printf("A = %d ,B = %d",a,b);
                     System.out.println();}
 
     }
